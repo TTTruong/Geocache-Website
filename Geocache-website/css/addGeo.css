@@ -1,0 +1,167 @@
+body{
+	background-color: #f0f0f0;
+}
+
+#title{
+    height:100px;
+    min-width: 1300px;
+    background-color:#f0f0f0;
+}
+
+#title>content{
+    position:relative;
+    display:inline-block;
+    font-family: 'Raleway', sans-serif;
+    height:100px;
+    border-left:3px solid #f9f9f9;
+    border-right:3px solid #f9f9f9;
+    vertical-align: middle;
+}
+
+#title>content>header{
+    margin-top:30px;
+    padding-left:10%;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+#create{
+    min-width: 1300px;
+    background-color:#f9f9f9;
+    height:65px;
+}
+
+#create>content{
+    position:relative;
+    font-family: 'Raleway', sans-serif;
+    height:65px;
+    border-left:3px solid #f0f0f0;
+    border-right:3px solid #f0f0f0;
+}
+
+#createButton {
+    margin-top:15px;
+    margin-right:10%;
+}
+
+#listLocations{
+    min-width:1300px;
+}
+
+#listLocations>content{
+    font-family: 'Raleway', sans-serif;
+	border-left:3px solid #f9f9f9;
+	border-right:3px solid #f9f9f9;
+}
+
+#listLocations table{
+	background-color: #f0f0f0;
+    border:2px solid black;
+    border-collapse:collapse;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:auto;
+    margin-right:auto;
+    width:80%;
+}
+
+#listLocations th{
+    border:2px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#listLocations td{
+    text-align:center;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+} 
+
+#listLocations img{
+    height: 67px;
+    width: 100px;
+}
+
+.hover{
+	border-top-style:dashed;
+	border-bottom-style:dashed;
+    background-color: #f9f9f9;
+}
+
+#locationPopup{
+    font-family: 'Raleway', sans-serif;
+    font-size:15px;
+    background-color:#f0f0f0;
+}
+
+#locationPopup>h1{
+    margin-top:10px;
+    text-align:center;
+}
+
+#locationPopup content{
+    float:left;
+    display: inline-block;
+    width:214px;
+    margin-left:0;
+    padding-top:15px;
+    padding-left:18px;
+    padding-right:18px;
+    vertical-align: middle;
+}
+
+#locationPopup img{
+    display:inline-block;
+    width:200px;
+    height:133px;
+    border:2px solid black;
+    float:left;
+    margin-bottom: 5px;
+}
+
+#map{
+    width:450px;
+    height: 375px;
+    border:2px solid black;
+}
+
+span.ui-dialog-title{
+    text-align: center;
+}
+
+#createPopup{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#fileToUpload{
+    width: 200px;
+}
+
+#addError{
+    padding-top:10px;
+    color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

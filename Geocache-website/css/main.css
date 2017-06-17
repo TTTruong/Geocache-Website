@@ -1,0 +1,391 @@
+body{
+    margin:0;
+    background-color:#f9f9f9;
+}
+
+/* HEADER */
+#header{
+    min-width: 1300px;
+    background-color:#80b2ff;
+    height:60px;
+    border-bottom: 3px solid #f9f9f9;
+}
+
+#logo{
+    float:left;
+    margin-left:25%;
+}
+
+header a{
+    /* AMIT Logo*/
+    text-decoration:none;
+    color:white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 130%;
+    font-weight: bold;
+}
+
+#logo img{
+    height:50px;
+    margin-top:5px;
+    margin-bottom:5px;
+    /* The text */
+    vertical-align:middle;
+}
+
+#loginForm{
+    visibility: hidden;
+    float:right;
+    margin-right:15%;
+    margin-top:10px;
+    text-align: center;
+}
+
+#loginForm div{
+    display:inline-block;
+}
+
+#loginForm>input{
+    border-radius: 3px;
+    margin-top:2px;
+    border:1px solid lightblue;
+}
+
+#loginButton,#signupButton,#logoutButton, #addButton{
+    position:relative;
+    float:right;
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+    padding-left: 15px;
+}
+#loginButton{
+    margin-right:10px; 
+    margin-left: 10px;   
+}
+
+#loginButton a,#signupButton a,#logoutButton a{
+    color:white;
+    font-size:110%;
+    font-family: 'Oswald', sans-serif;
+}
+
+#addButton img{
+    margin-top:5px;
+    width:35px;
+}
+
+#logoutButton img{
+    margin-top:5px;
+    width:40px;
+}
+
+/* MAIN BODY */
+article{
+    clear:both;
+    width:100%;
+    /*border: 1px solid white;*/
+}
+
+content{
+    float:left;
+    margin-left:10%;
+    width:80%;
+}
+/* PROFILE PIC (#1): IF USER LOGGED IN*/
+#profilePic{
+    float:right;
+    margin-right:5%;
+    margin-top:20px;
+}
+
+#profilePic>img{
+    height:290px;
+}
+
+/* REGISTRATION: IF USER NOT LOGGED IN*/
+#welcomeRegister{
+    position:relative;
+    height:400px;
+    min-width: 1300px;
+    background-color:#f0f0f0;
+}
+
+#welcomeRegister>content{
+    height:400px;
+    min-width: 1050px;
+    border-left:3px solid #f9f9f9; /*temp */
+    border-right:3px solid #f9f9f9; /*temp */
+}
+
+#welcomeRegister>content>header{
+    margin-top:20px;
+    font-family: 'Raleway', sans-serif;
+    font-size:200%;
+    text-align:center;
+    color:#03397d;
+}
+
+/* MAIN BODY WECLOME GALLERY 565 290*/
+#galleryHolder{
+    float:left;
+    margin-top: 25px;
+    margin-left: 5%;
+}
+
+#gallery{
+    background-repeat: no-repeat; /*not sure if this works */
+    text-align: center;
+}
+
+/* MAIN BODY - FORM */
+#welcomeRegister form{
+    font-family: 'Raleway', sans-serif;
+    float:right;
+    width: 275px;
+    margin-top:35px;
+    margin-right:5%;
+    border:1px solid white;
+    padding:20px;
+    padding-left:40px;
+    padding-right:40px;
+    border-radius:5px;
+    background-color:#f9f9f9;
+}
+
+#welcomeRegister .login{
+    border:0;
+    margin-bottom:10px;
+    border-bottom: 1px solid #d8d8d8;
+    background:none;
+    font-size:130%;
+    padding-top:10px;
+    width:100%;    
+    -webkit-transition: width 0.5s ease;
+    -moz-transition: width 0.5s ease;
+    -o-transition: width 0.5s ease;
+    -ms-transition: width 0.5s ease;
+    transition: width 0.5s ease;
+}
+
+#welcomeRegister .login:focus{
+    outline:none;
+    width:110%;
+    border-color:lightblue;
+}
+
+#registerButton{
+    margin-top:10px;
+    margin-left:70px;
+    border-radius:1px;
+    border-color:white;
+    color:#03397d;
+}
+
+#welcomeRegister p{
+    font-family: 'Raleway', sans-serif;
+    text-align:center;
+    font-size:150%;
+    margin-top:0;
+    margin-bottom: 10px;
+    color:#b0b0b0;
+}
+
+/* MAIN BODY(#2) - AUCTION SUMMARY*/
+
+#locationSummary{
+    min-width: 1300px;
+    background-color:inherit;
+    display:block;
+}
+
+#locationSummary>content{
+    border-left: 3px solid #f0f0f0; /*temp */
+    border-right: 3px solid #f0f0f0; /*temp */
+}
+
+#locationSummary table{
+    margin-top:10px;
+    margin-:10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#locationSummary img{
+    width:250px;
+}
+
+/* MAIN BODY (#3) - INFO SUMMARY */
+#infoSummary{
+    height:1370px;
+    min-width: 1300px;
+    background-color:#f0f0f0;
+}
+
+#infoSummary>content{
+    height:1370px;
+    border-left: 3px solid #f9f9f9;
+    border-right: 3px solid #f9f9f9;
+}
+
+#infoSummary div{
+    font-family: 'Raleway', sans-serif;
+}
+
+#step1{
+    padding-top: 50px;
+    height: 425px;
+}
+
+#step2{
+    height: 450px;
+}
+
+#step3{
+    height: 450px;
+}
+
+#infoSummary div>img{
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#infoSummary div>header{
+    text-align: center;
+    font-size:200%;
+    font-weight: bold;
+}
+
+#infoSummary div>content{
+    font-size:150%;
+}
+
+#infoSummary p{
+    text-indent: 30px;
+}
+
+/* FOOTER */
+#footer{
+    display:inline-block;
+    clear:both;
+    width: 100%;
+    min-width: 1300px;
+    height:60px;
+    background-color:#b3b3b3;
+    position:relative;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    border-top: 3px solid #f9f9f9;
+}
+
+#footer div{
+    position:relative;
+}
+
+#copyright{
+    position:absolute;
+    float:left;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:25px;
+    padding-left:25%;
+    color: #404040;
+}
+
+#footerlogo{
+    float:left;
+    position:absolute;
+    padding-left:15%;
+}
+
+#footerlogo img{
+    display:block;
+    height:50px;
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#pagelinks{
+    float:left;
+    margin-top:10px;
+    padding-left:10%;
+}
+
+#pagelinks>ul{
+    list-style-type:none;
+}
+
+#pagelinks>ul>li{
+    display:inline;
+    padding-right:10px;
+}
+
+#pagelinks a:link {
+    text-decoration: none;
+    color: #404040;
+}
+
+#pagelinks a:visited {
+    text-decoration: none;
+    color: #404040;
+}
+
+#pagelinks a:hover {
+    text-decoration: none;
+    color: #404040;
+}
+
+#pagelinks a:active {
+    text-decoration: none;
+    color: #404040;
+}
+
+#createButton{
+    position: absolute;
+    right:0;
+}
+
+#registerPass{
+    padding-bottom:10px;
+}
+
+#error{
+    color:red;
+    padding-top: 100px;
+}
+
+#login{
+    position:relative;
+    font-size: 12px;
+    margin-bottom:21px;
+}
+
+#register{
+    height:225px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

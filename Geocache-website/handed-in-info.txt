@@ -1,0 +1,8 @@
+CSCI 3230 Web Development Final Project
+-----------------
+Truyen Truong
+Alexandar Mihaylov
+
+GitHub Link: git@github.com:amihaylo/webDev-Final-Project.git
+
+*Project also attached as zip in case there are issues with the github link

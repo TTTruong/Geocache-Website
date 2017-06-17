@@ -1,0 +1,90 @@
+#title{
+	height:100px;
+	min-width: 1300px;
+	background-color:#f0f0f0;
+}
+
+#title>content{
+	position:relative;
+	display:inline-block;
+	font-family: 'Raleway', sans-serif;
+	height:100px;
+	font-weight: bold;
+	font-size: 200%;
+	border-left:3px solid #f9f9f9;
+	border-right:3px solid #f9f9f9;
+	vertical-align: middle;
+}
+
+#title>content>header{
+	margin-top:30px;
+	padding-left:5%;
+}
+
+#banner{
+	min-width: 1300px;
+	background-color:#f9f9f9;
+	height:200px;
+}
+
+#banner>content{
+	border-left:3px solid #f0f0f0;
+	border-right:3px solid #f0f0f0;
+	height:220px;
+}
+
+#banner img{
+	display: block;
+	width: 98%;
+	height: 200px;
+	margin-top:10px;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+#info{
+	min-width: 1300px;
+	background-color:#f0f0f0;
+	height:1070px;
+}
+
+#info>content{
+	border-left:3px solid #f9f9f9;
+	border-right:3px solid #f9f9f9;
+	height:1070px;
+}
+
+#info div{
+	font-family: 'Raleway', sans-serif;
+}
+
+#info div>header{
+	text-align: center;
+    font-size:200%;
+    font-weight: bold;
+}
+
+#info div>content{
+	font-size:150%;
+}
+
+#info p{
+	text-indent: 30px;
+}
+
+#description{
+	padding-top: 50px;
+	height:240px;
+}
+
+#rules{
+	height:300px;
+}
+
+#resources{
+	height:180px;
+}
+
+#locations{
+	height:280px;
+}

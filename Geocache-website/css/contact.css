@@ -1,0 +1,98 @@
+#authors{
+	background-color:#f0f0f0;
+	height:500px;
+	min-width: 1300px;
+}
+
+#authors>content{
+	height:500px;
+	font-family: 'Raleway', sans-serif;
+	border-left:3px solid #f9f9f9;
+	border-right:3px solid #f9f9f9;
+}
+
+#authors>content>header{
+	margin-top:25px;
+	margin-bottom:25px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 200%;
+}
+
+#authors div{
+	text-align: center;
+}
+
+#Alex{
+	float:left;
+	margin-left:15%;
+	font-size: 28px;
+	text-align:center;
+}
+
+#Alex>content{
+	font-size: 18px;
+	text-align:center;
+}
+
+#alex-pic{
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#alex-pic>img{
+	width: 200px;
+	height: 200px;
+}
+
+#Truyen{
+	float:right;
+	margin-right:15%;
+	font-size: 28px;
+	text-align:center;
+}
+
+#Truyen>content{
+	font-size: 18px;
+	text-align:center;
+}
+
+#truyen-pic{
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#truyen-pic>img{
+	width: 200px;
+	height: 200px;
+}
+
+#authors a:link {
+    text-decoration: none;
+    color: #404040;
+}
+
+#authors a:visited {
+    text-decoration: none;
+    color: #404040;
+}
+
+#authors a:hover {
+    text-decoration: none;
+    color: #404040;
+}
+
+#authors a:active {
+    text-decoration: none;
+    color: #404040;
+}
