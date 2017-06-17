@@ -1,5 +1,8 @@
 #CSCI 3230 Web Development Final Project
 
+Contributors: Alex Mihaylov
+              Truyen Truong
+
 ##Instructions:
 1. Open `php.ini` which should be located in `/opt/lampp/etc/php.ini`
 2. Change the following line to `file_uploads = On`
