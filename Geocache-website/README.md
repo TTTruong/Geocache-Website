@@ -1,7 +1,6 @@
 #CSCI 3230 Web Development Final Project
 
-Contributors: Alex Mihaylov
-              Truyen Truong
+Contributors: Alex Mihaylov & Truyen Truong
 
 ##Instructions:
 1. Open `php.ini` which should be located in `/opt/lampp/etc/php.ini`
